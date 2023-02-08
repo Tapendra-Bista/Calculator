@@ -3,6 +3,7 @@ import 'package:calculator/linkpage.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
  void main (){
+   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor:Colors.orange,));
 runApp((MaterialApp(
   debugShowCheckedModeBanner: false,
   title: 'Calculator',
